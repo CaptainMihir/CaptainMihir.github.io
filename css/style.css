@@ -1,0 +1,57 @@
+html, body {
+  height: 100%;
+}
+
+.container-fluid {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#row-1 {
+  background-image: url(../images/earth.jpg);
+  background-position: center;
+  flex: 5;
+}
+
+#row-2 {
+  background-color: #020F02;
+  color: white;
+  flex: 1;
+}
+
+#headline {
+  font-family: 'Amaranth', sans-serif;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  text-shadow: 5px 5px 2px #1B691B;
+  margin-top: 250px;
+}
+
+#cheer {
+  font-size: 50px;
+}
+
+#bottom-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#go:hover {
+  color: #004400;
+  background-color: white;
+  font-weight: bold;
+}
+
+@media (max-width: 575px) {
+  #headline {
+    font-family: 'Amaranth', sans-serif;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 5px 5px 2px #1B691B;
+    margin-top: 170px;
+  }
+}
